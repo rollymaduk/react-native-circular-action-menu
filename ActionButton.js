@@ -1,6 +1,5 @@
 import React, {
-  Component,
-  PropTypes,
+  Component
 } from 'react';
 import {
   StyleSheet,
@@ -11,7 +10,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 import ActionButtonItem from './ActionButtonItem';
-
+import PropTypes from 'prop-types';
 const alignMap = {
   center: {
     alignItems: 'center',
